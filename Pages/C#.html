@@ -1,0 +1,806 @@
+<html>
+<head>
+ 
+  <link rel="icon" type="image/x-icon" href="../Img/img.ico">
+  <link rel="stylesheet" href="../CSS/StylePage.css">
+  <script type="text/javascript" src="../JS/Js.JS"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<title>C#</title>
+
+    </head>
+    <body>
+        
+        
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+          
+              <div class="container">
+                <iframe src="https://www.programiz.com/csharp-programming/online-compiler/" height="400" width="900" title="Iframe Example"></iframe>
+               
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+               
+               
+              </div>
+            </form>
+          </div>
+
+    </center>
+
+
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>C#</h2>
+                <ul>
+                    <li><a href="#HOME"><i class="fas fa-home"></i>C# HOME</a></li>
+                    <li><a href="#Variables"><i class="fas fa-user"></i> C# Variables</a></li>
+                    <li><a href="#User Input"><i class="fas fa-address-card"></i>C# User Input </a></li>
+                    <li><a href="#Math"><i class="fas fa-project-diagram"></i>C# Math</a></li>
+                    <li><a href="#Booleans"><i class="fas fa-blog"></i>C# Booleans</a></li>
+                    <li><a href="#If"><i class="fas fa-address-book"></i>C# If ... Else</a></li>
+                    <li><a href="#Switch"><i class="fas fa-map-pin"></i>C# Switch Statements</a></li>
+                    <li><a href="#Arrays"><i class="fas fa-blog"></i>C# Arrays</a></li>
+
+
+                </ul>
+            </div>
+            <div class="main_content">
+              <div class="header">
+                <center>
+                    <ul class="menu cf">
+                        <li><a href="Index.html">Home</a></li>
+                        <li>
+                            <a href="">Frontend</a>
+                            <ul class="submenu">
+                                <li><a href="HTML.html">HTML</a>
+                                </li>
+                                <li><a href="Css.html">CSS
+                                        </a></li>
+                                <li><a href="JAVASCRIPT.html">JavaScript
+                                        </a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="">Programming C</a>
+                            <ul class="submenu">
+                                <li><a href="C#.html">C#</a>
+                                </li>
+                                <li><a href="c++.html">C++
+                                        </a></li>
+                                <li><a href="c.html">C
+                                        </a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="">Programming language</a>
+                            <ul class="submenu">
+                                <li><a href="java.html">Java</a>
+                                </li>
+                                <li><a href="python.html">Phyton
+                                        </a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="">database</a>
+                            <ul class="submenu">
+                                <li><a href="Sql.html">SQL</a>
+                                </li>
+                                <li><a href="MYSQL.html">MYSQL</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="">visitor</a>
+                            <ul class="submenu">
+                                <li><a href="Registeration.html">Sin in & Sin up</a>
+                                </li>
+                                <li><a href="AllCouers.html">Information</a>
+                                </li>
+                                <li><a href="Contact.html">Contact Us</a>
+                                </li>
+                                <li><a href="AboutUs.html">About Us</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </center>
+
+
+            </div>
+    
+    
+                <center>
+
+            <div class="w3-container" id="HOME">
+
+                <h2>C# HOME</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>This code is for you to print any sentence</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p1">
+  <code>
+    using System;
+
+    namespace HelloWorld
+    {
+      class Program
+      {
+        static void Main(string[] args)
+        {
+          Console.WriteLine("Hello World!");    
+        }
+      }
+    }
+  </code>
+</pre>
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p1')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id02').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id02" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/DRZcL3QDC1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Variables">
+
+                <h2>C# Variables</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>These variables are containers for storing data values.</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p2">
+<code>
+  int myNum = 5;
+double myDoubleNum = 5.99D;
+char myLetter = 'D';
+bool myBool = true;
+string myText = "Hello";
+
+Console.WriteLine(myNum);
+Console.WriteLine(myDoubleNum);
+Console.WriteLine(myLetter);
+Console.WriteLine(myBool);
+Console.WriteLine(myText);
+</code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p2')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id03').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id03" class="modal">
+                  <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                  <div class="imgcontainer">
+                  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  </div>
+                  <div class="container">
+                  <iframe width="850" height="450" src="https://www.youtube.com/embed/6KgnjUDOpv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="User Input">
+
+                <h2>C# User Input</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>we will use Console.ReadLine() to get user input.</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p3">
+  <code>
+  using System;
+
+  namespace MyApplication
+  {
+    class Program
+    {
+      static void Main(string[] args)
+      {
+        Console.WriteLine("Enter username:");
+
+        string userName = Console.ReadLine();
+  
+        Console.WriteLine("Username is: " + userName);
+      }
+    }
+  }
+  </code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p3')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id04').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id04" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/_SXJyA605bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Math">
+
+                <h2>C# Math</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+               <h3>The C# Math class has many methods that allows you to perform mathematical tasks on numbers.</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p5">
+<code>
+  Console.WriteLine(Math.Max(5, 10)); 
+
+  Console.WriteLine(Math.Min(5, 10)); 
+
+  Console.WriteLine(Math.Sqrt(64)); 
+
+  Console.WriteLine(Math.Abs(-4.7)); 
+
+  Console.WriteLine(Math.Round(9.99));
+</code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p5')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id05').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id05" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/tzRK0QFEte0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+
+              <div class="w3-container" id="Booleans">
+
+                <h2>C# Booleans</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+               <h3>A boolean type is declared with the bool keyword and can only take the values true or false.</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p6">
+  <code>
+  using System;
+
+  namespace MyApplication
+  {
+    class Program
+    {
+      static void Main(string[] args)
+      {
+        bool isCSharpFun = true;
+        bool isFishTasty = false;
+        Console.WriteLine(isCSharpFun);   // Outputs True
+
+        Console.WriteLine(isFishTasty);   // Outputs False    
+      }
+    }
+  }
+  </code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p6')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id06').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id06" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/2rzo8cBIAhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+
+                  
+    
+              <div class="w3-container" id="If">
+
+                <h2>C# If ... Else</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>Use the if statement to specify a block of C# code to be executed if a condition is True. </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p7">
+<code>
+  using System;
+
+  namespace MyApplication
+  {
+    class Program
+    {
+      static void Main(string[] args)
+      {
+        int time = 20;
+        if (time < 18) 
+        {
+          Console.WriteLine("Good day.");
+        } 
+        else 
+        {
+          Console.WriteLine("Good evening.");
+        }
+      }
+    }
+  }
+    </code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p7')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id07').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id07" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/pSPQnXleaS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Switch">
+
+                <h2>C# Switch</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>Use the switch statement to select one of many code blocks to be executed.</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p8">
+<code>
+  using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 10;
+      switch (day) 
+      {
+        case 1:
+          Console.WriteLine("Monday");
+          break;
+        case 2:
+          Console.WriteLine("Tuesday");
+          break;
+        case 3:
+          Console.WriteLine("Wednesday");
+          break;
+        case 4:
+          Console.WriteLine("Thursday");
+          break;
+        case 5:
+          Console.WriteLine("Friday");
+          break;
+        case 6:
+          Console.WriteLine("Saturday");
+          break;
+        case 7:
+          Console.WriteLine("Sunday");
+          break;
+           default:
+    Console.WriteLine("Looking forward to the Weekend.");
+    break;
+      }    
+    }
+  }
+}
+    </code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p8')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id08').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id08" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/Qu93CRt-FGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Arrays">
+
+                <h2>C# Arrays</h2>
+              
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+                      To declare an array, define the variable type with square brackets:</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+                   
+<br>
+<pre id="p10">
+<code>
+  using System;
+
+  namespace MyApplication
+  {
+    class Program
+    {
+      static void Main(string[] args)
+      {
+        string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        Console.WriteLine(cars[0]);
+      }
+    }
+  }
+    </code>
+</pre>
+
+<br>                    
+<br>                     
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p10')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id010').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+                  
+                  <div id="id010" class="modal">
+  
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id010').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+                  
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/IHMmPVEOT64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                       
+                       
+                      </div>
+                    </form>
+                  </div>
+                 
+                  <br>
+
+                </div>
+              </div>
+           
+              <br>
+              <br>
+              <br>
+              <main>
+           
+     
+                <footer class="footer">
+                  <div class="container bottom_border">
+                  <div class="row">
+                      The rights of the team are reserved. How much do you contact us via e-mail YmYiso@email.com
+                  </div>
+                  </div>
+
+
+                  <div class="container">
+                  <ul class="foote_bottom_ul_amrc">
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="C#.html">C#</a></li>
+                  <li><a href="c++.html">C++</a></li>
+                  <li><a href="c.html">C</a></li>
+                  <li><a href="Sql.html">Sql</a></li>
+                  <li><a href="MYSQL.html">Mysql</a></li>
+                  <li><a href="python.html">Python</a></li>
+                  <li><a href="HTML.html">Html</a></li>
+                  <li><a href="Css.html">CSS</a></li>
+                  <li><a href="JAVASCRIPT.html">JavaScript</a></li>
+
+
+              </ul>
+         
+         
+              <br>
+              <br>
+                  <!--foote_bottom_ul_amrc ends here-->
+                  <p class="text-center">web engineering 1</p>
+
+
+                  <!--social_footer_ul ends here-->
+                  </div>
+
+                  </footer>
+
+            
+            </main>
+        
+       
+            
+    </body>
+
+    </html>

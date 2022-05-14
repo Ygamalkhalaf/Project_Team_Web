@@ -1,0 +1,749 @@
+<html>
+
+<head>
+ <link rel="icon" type="image/x-icon" href="../Img/img.ico">
+  <link rel="stylesheet" href="../CSS/StylePage.css">
+  <script type="text/javascript" src="../JS/Js.JS"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>C</title>
+<style>
+  .ccc:focus {
+  border: 3px solid #555;
+}
+</style>
+    </head>
+    <body>
+
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+
+              <div class="container">
+                <iframe src="https://www.programiz.com/c-programming/online-compiler/" height="400" width="900" title="Iframe Example"></iframe>
+
+              </div>
+
+              <div class="container" style="background-color:#f1f1f1">
+
+
+              </div>
+            </form>
+          </div>
+
+    </center>
+
+
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>C</h2>
+                <ul>
+                    <li><a href="#Select"><i class="fas fa-home"></i>C Syntax</a></li>
+                    <li><a href="#SelectDISTINCT"><i class="fas fa-user"></i>C Variables</a></li>
+                    <li><a href="#Selectwhere"><i class="fas fa-address-card"></i>C Data Types </a></li>
+                    <li><a href="#SelectORDERBY"><i class="fas fa-project-diagram"></i>C Operators</a></li>
+                    <li><a href="#Selectisnull"><i class="fas fa-blog"></i>C If ... Else</a></li>
+                    <li><a href="#SelectUpdate"><i class="fas fa-address-book"></i>C Switch</a></li>
+                    <li><a href="#SelectDelete"><i class="fas fa-map-pin"></i>C While Loop</a></li>
+                    <li><a href="#Selectlike"><i class="fas fa-blog"></i>C For Loop</a></li>
+
+
+                </ul>
+            </div>
+            <div class="main_content">
+                <div class="header">
+                    <center>
+                        <ul class="menu cf">
+                            <li><a href="Index.html">Home</a></li>
+                            <li>
+                                <a href="">Frontend</a>
+                                <ul class="submenu">
+                                    <li><a href="HTML.html">HTML</a>
+                                    </li>
+                                    <li><a href="Css.html">CSS
+                                            </a></li>
+                                    <li><a href="JAVASCRIPT.html">JavaScript
+                                            </a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="">Programming C</a>
+                                <ul class="submenu">
+                                    <li><a href="C#.html">C#</a>
+                                    </li>
+                                    <li><a href="c++.html">C++
+                                            </a></li>
+                                    <li><a href="c.html">C
+                                            </a></li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="">Programming language</a>
+                                <ul class="submenu">
+                                    <li><a href="java.html">Java</a>
+                                    </li>
+                                    <li><a href="python.html">Phyton
+                                            </a></li>
+
+
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="">database</a>
+                                <ul class="submenu">
+                                    <li><a href="Sql.html">SQL</a>
+                                    </li>
+                                    <li><a href="MYSQL.html">MYSQL</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="">visitor</a>
+                                <ul class="submenu">
+                                    <li><a href="Registeration.html">Sin in & Sin up</a>
+                                    </li>
+                                    <li><a href="AllCouers.html">Information</a>
+                                    </li>
+                                    <li><a href="Contact.html">Contact Us</a>
+                                    </li>
+                                    <li><a href="AboutUs.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </center>
+
+
+                </div>
+
+
+                <center>
+
+            <div class="w3-container" id="Select">
+
+                <h2>Syntax               </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>You have already seen the following code a couple of times in the first chapters. Let's break it down to understand it better:</h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p1">#include <stdio.h>
+
+    int main() {<br>
+    printf("Hello World!");<br>
+    return 0;<br>
+  }</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p1')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id02').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id02" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/82W_jMKFjZc" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="SelectDISTINCT">
+
+                <h2>variables
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>In C, there are different types of variables (defined with different keywords), for example:<br>
+
+                      int - stores integers (whole numbers), without decimals, such as 123 or -123<br>
+                      float - stores floating point numbers, with decimals, such as 19.99 or -19.99<br>
+                      char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes<br>
+                      
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p2">
+
+  int myNum;<br>
+  myNum = 15;
+
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p2')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id03').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id03" class="modal">
+                  <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                  <div class="imgcontainer">
+                  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  </div>
+                  <div class="container">
+                  <iframe width="850" height="450" src="https://www.youtube.com/embed/GhD6vRHd2Qk" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Selectwhere">
+
+                <h2>Data Types
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>As explained in the Variables chapter,<br>
+                       a variable in C must be a specified data type,<br> 
+                       and you must use a format specifier inside the printf()<br> 
+                       function to display it:
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p3">// Create variables<br>
+  int myNum = 5;             // Integer (whole number)<br>
+  float myFloatNum = 5.99;   // Floating point number<br>
+  char myLetter = 'D';       // Character<br>
+  // Print variables<br>
+  printf("%d\n", myNum);<br>
+  printf("%f\n", myFloatNum);<br>
+  printf("%c\n", myLetter);
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p3')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id04').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id04" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/1eyf1-RU_eg" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="SelectORDERBY">
+
+                <h2>Operators
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>perators are used to perform operations on variables and values.<br>
+
+                      In the example below, we use the + operator to add together two values:
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p5">
+
+  int sum1 = 100 + 50;        // 150 (100 + 50)<br>
+  int sum2 = sum1 + 250;      // 400 (150 + 250)<br>
+  int sum3 = sum2 + sum2;     // 800 (400 + 400)<br>
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p5')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id05').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id05" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/50Pb27JoUrw" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+
+              <div class="w3-container" id="Selectisnull">
+
+                <h2>If ... Else
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>Use the if statement to specify a block of C code to be executed if a condition is true.
+
+
+
+
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p6">
+
+  int x = 20;<br>
+  int y = 18;<br>
+  if (x > y) {<br>
+    printf("x is greater than y");<br>
+  }
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p6')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id06').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id06" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/t1wwLsoIN34" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+
+
+
+              <div class="w3-container" id="SelectUpdate">
+
+                <h2>Switch
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>Instead of writing many if..else statements, you can use the switch statement.<br>
+
+                      The switch statement selects one of many code blocks to be executed:
+
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p7">
+
+  switch(expression) {<br>
+    case x:<br>
+      // code block<br>
+      break;<br>
+    case y:<br>
+      // code block<br>
+      break;<br>
+    default:<br>
+      // code block<br>
+  }
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p7')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id07').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id07" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/FSxYyHLF_9A" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="SelectDelete">
+
+                <h2>While Loop
+
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>The while loop loops through a block of code as long as a specified condition is true:
+
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p8">
+<br>
+
+int i = 0;<br>
+
+while (i < 5) {<br>
+  printf("%d\n", i);<br>
+  i++;<br>
+}
+    <br>
+
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p8')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id08').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id08" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/OfJJsEIO1kE" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <div class="w3-container" id="Selectlike">
+
+                <h2>For Loop
+                </h2>
+
+                <div class="w3-card-4" style="width:70%">
+                  <header class="w3-container w3-light-grey">
+                    <h3>When you know exactly how many times you want to loop through a block of code,<br> 
+                      use the for loop instead of a while loop:
+
+
+
+                    </h3>
+                  </header>
+                  <div style="background-color: black;color: white;">
+
+<br>
+<p id="p10">
+
+  int i;<br>
+
+  for (i = 0; i < 5; i++) {<br>
+    printf("%d\n", i);<br>
+  }
+</p>
+
+<br>
+<br>
+                  </div>
+                  <br>
+                  <table>
+                      <tr>
+                          <td><button class="button-72" role="button"onclick="copyToClipboard('#p10')">Copy Code</button>
+                          </td>
+                          <td style="width:30px;"></td>
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id01').style.display='block'">Try it Yourself >></button>
+                          </td>
+                          <td style="width:30px;"></td>
+
+                          <td><button class="button-72" role="button"onclick="document.getElementById('id010').style.display='block'">Video explanation</button>
+                          </td>
+                      </tr>
+                  </table>
+
+                  <div id="id010" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post" style="width:950px;height: 500px;">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id010').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      </div>
+
+                      <div class="container">
+                        <iframe width="850" height="450" src="https://www.youtube.com/embed/Qn8dNgvqPoo" title="YouTube video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+
+
+                      </div>
+                    </form>
+                  </div>
+
+                  <br>
+
+                </div>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <main>
+
+
+                <footer class="footer">
+                    <div class="container bottom_border">
+                    <div class="row">
+                        The rights of the team are reserved. How much do you contact us via e-mail YmYiso@email.com
+                    </div>
+                    </div>
+
+
+                    <div class="container">
+                    <ul class="foote_bottom_ul_amrc">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="C#.html">C#</a></li>
+                    <li><a href="c++.html">C++</a></li>
+                    <li><a href="c.html">C</a></li>
+                    <li><a href="Sql.html">Sql</a></li>
+                    <li><a href="MYSQL.html">Mysql</a></li>
+                    <li><a href="python.html">Python</a></li>
+                    <li><a href="HTML.html">Html</a></li>
+                    <li><a href="Css.html">CSS</a></li>
+                    <li><a href="JAVASCRIPT.html">JavaScript</a></li>
+
+
+                </ul>
+           
+           
+                <br>
+                <br>
+                    <!--foote_bottom_ul_amrc ends here-->
+                    <p class="text-center">web engineering 1</p>
+
+
+                    <!--social_footer_ul ends here-->
+                    </div>
+
+                    </footer>
+
+
+
+
+            </main>
+
+
+
+    </body>
+
+    </html>
